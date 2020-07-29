@@ -68,7 +68,7 @@ public class UnionFind {
     /* Returns the root of the set V belongs to. Path-compression is employed
        allowing for fast search-time. */
     public int find(int vertex) {
-        // TODO
+        // Done
         validate(vertex);
         int root = vertex;
         while (parent(root) > -1) {
